@@ -1,3 +1,5 @@
+Note - this repo is basically a fork of https://github.gatech.edu/ResNet/RedditCrawler
+
 # Reddit Crawler
 ZOMG THE INTERNET IS DOWN, or at least Reddit seems to think so. These scripts will continuously crawl comments and threads on /r/gatech for pre-defined keywords. If a match is found, a Slack message is sent with the relevant comment or thread.
 
