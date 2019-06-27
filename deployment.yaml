@@ -2,3 +2,6 @@ git: https://github.com/HackGT/reddit-crawler.git
 files:
   /etc/reddit-crawler:
     secret: true
+    contents:
+      config.ini:
+        env: CONFIG_INI
