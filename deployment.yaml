@@ -1,6 +1,3 @@
-secrets:
-  - config.ini
-
 files:
   /etc/reddit-crawler:
     secret: true
