@@ -2,7 +2,5 @@ secrets:
   - config.ini
 
 files:
-  /etc/reddit-crawler
-    contents:
-      config.ini
-    secret
+  /etc/reddit-crawler:
+    secret: true
