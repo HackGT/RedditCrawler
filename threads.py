@@ -8,7 +8,7 @@ from crawler_lib import send_message, keyword_match
 import ConfigParser
 
 config = ConfigParser.ConfigParser()
-config.read('config.ini')
+config.read('/etc/reddit-crawler/config.ini')
 
 reddit = praw.Reddit(user_agent=config.get('reddit','user_agent'),
                      client_id=config.get('reddit','client_id'), client_secret=config.get('reddit','client_secret'))

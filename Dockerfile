@@ -8,7 +8,6 @@ COPY supervisord.conf /etc/supervisor/conf.d/supervisord.conf
 ARG APP_PATH=.
 WORKDIR $APP_PATH
 
-COPY /etc/reddit-crawler/config.ini $APP_PATH
 ADD requirements.txt $APP_PATH
 RUN pip install -r requirements.txt
 

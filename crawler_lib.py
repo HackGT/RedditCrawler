@@ -3,7 +3,7 @@ import json
 import ConfigParser
 
 config = ConfigParser.ConfigParser()
-config.read('config.ini')
+config.read('/etc/reddit-crawler/config.ini')
 
 def send_message(title, title_link, text, keyword, in_place = "", user = "", flair = ""):
     response = requests.post(
