@@ -11,4 +11,4 @@ WORKDIR $APP_PATH
 ADD requirements.txt $APP_PATH
 RUN pip install -r requirements.txt
 
-CMD ["/usr/bin/supervisord"]
+CMD ["/usr/bin/supervisord","-c","/etc/supervisor/conf.d/supervisord.conf"]
